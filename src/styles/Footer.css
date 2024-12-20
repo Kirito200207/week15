@@ -1,0 +1,139 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.resume-section,
+.links-section {
+  background-color: #242424;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.resume-section h2,
+.links-section h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #fff;
+}
+
+.download-button {
+  width: 100%;
+  padding: 1rem;
+  background-color: #4a9eff;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+  background-color: #3182ce;
+}
+
+.quick-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.quick-links a {
+  color: #888;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.quick-links a:hover {
+  color: #fff;
+}
+
+.why-consulting {
+  padding: 100px 0;
+  background-color: #f8f9fa;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.consulting-content {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.consulting-text {
+  flex: 1;
+  max-width: 500px;
+}
+
+.consulting-text h2 {
+  font-size: 36px;
+  color: #2C2C2C;
+  margin-bottom: 20px;
+}
+
+.consulting-text p {
+  color: #6B7280;
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.about-btn {
+  background-color: #3B82F6;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.about-btn:hover {
+  background-color: #2563EB;
+}
+
+.consulting-image {
+  flex: 1;
+  max-width: 600px;
+}
+
+.consulting-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .consulting-content {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .consulting-text {
+    max-width: 100%;
+  }
+
+  .consulting-text h2 {
+    font-size: 28px;
+  }
+
+  .consulting-image {
+    max-width: 100%;
+  }
+} 
