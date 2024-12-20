@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/week15/static/css/main.88eef938.css",
+    "main.js": "/week15/static/js/main.9a830b2d.js",
+    "static/js/488.4b48a002.chunk.js": "/week15/static/js/488.4b48a002.chunk.js",
+    "static/media/banner.png": "/week15/static/media/banner.d25353f378e1e917c6b5.png",
+    "static/media/about.png": "/week15/static/media/about.2e31e6f3edd255cfd965.png",
+    "static/media/4.png": "/week15/static/media/4.ababa0875d4fe9e69c24.png",
+    "static/media/respect.svg": "/week15/static/media/respect.b4414edb4fac635bdb6183d4a5375e49.svg",
+    "static/media/group.svg": "/week15/static/media/group.094771fb116946d47ecb9cecc94e69ce.svg",
+    "static/media/cart.svg": "/week15/static/media/cart.a7a9f49e7031c05815ab59f6aed128e2.svg",
+    "static/media/heart.svg": "/week15/static/media/heart.73dc9752cc95265e46dab3008c47d49c.svg",
+    "index.html": "/week15/index.html",
+    "main.88eef938.css.map": "/week15/static/css/main.88eef938.css.map",
+    "main.9a830b2d.js.map": "/week15/static/js/main.9a830b2d.js.map",
+    "488.4b48a002.chunk.js.map": "/week15/static/js/488.4b48a002.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88eef938.css",
+    "static/js/main.9a830b2d.js"
+  ]
+}
